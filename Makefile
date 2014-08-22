@@ -6,6 +6,7 @@ build: init
 	clang src/$(TARGET).c -o bin/$(TARGET)
 
 install: build
+	@mkdir -p $(BINDIR)
 	install -m 0755 bin/$(TARGET) $(BINDIR)
 
 uninstall:
