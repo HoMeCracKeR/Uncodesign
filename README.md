@@ -1,15 +1,8 @@
-codeunsign
-==========
+# Uncodesign
 
-A Mach-O binary codesign remover.
+A Mach-O binary codesign remover. This is a fork for Homebrew of [codeunsign](https://github.com/x43x61x69/codeunsign).
 
-[Project Site](https://github.com/x43x61x69/codeunsign)
-
-![Screenshot](https://dl.dropboxusercontent.com/s/iogvl9hhmbyl6uk/codeunsign.png)
-
-
-Description
------------
+## Description
 
 The source code served as an example of how LC_CODE_SIGNATURE can be 
 used, it is, by no means, a commercial grade product. It might contain 
@@ -23,22 +16,9 @@ The following architectures are supported by codeunsign:
 
 *PowerPC (PPC) is not support by this tool.*
 
-To compile:
+## License
 
-`clang codeunsign.c -O2 -o codeunsign`
-
-
-Changelog
----------
-
-v0.1:
-* Initial release.
-
-
-License
--------
-
-Copyright (C) 2014  Cai, Zhi-Wei.
+Copyright (C) 2014 - Cai, Zhi-Wei.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
