@@ -14,7 +14,11 @@ The following architectures are supported by codeunsign:
 * x86_64
 * Fat (i386 + x86_64)
 
-*PowerPC (PPC) is not support by this tool.*
+## Installation
+
+With [Homebrew](http://brew.sh):
+
+	brew install pvieito/formulae/uncodesign 
 
 ## License
 
