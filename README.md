@@ -18,7 +18,7 @@ The following architectures are supported:
 
 With [Homebrew](http://brew.sh):
 
-	brew install pvieito/formulae/uncodesign 
+	brew install pvieito/formulae/uncodesign --HEAD
 
 ## License
 
